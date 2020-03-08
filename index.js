@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello World"));
 
 // api-cafeの設定
-app.get("/api/v1/cafeInfo", (req, res) => {
+app.get("/api/v1/productInfo", (req, res) => {
   const cafeInfo = [
     { shop_brand: "ドトール", menu: "ドリップコーヒー" },
     { shop_brand: "スターバックスコーヒー", menu: "石窯フィローネ" },
