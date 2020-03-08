@@ -2,6 +2,10 @@ body {
   background-color: var(--color-label-white);
 }
 
+[v-cloak] {
+  display: none;
+}
+
 :root {
   --color-label-orange: #ffdead;
   --color-label-white: #ffffff;
@@ -114,6 +118,6 @@ body {
   bottom: 30px;
   right: 30px;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
